@@ -1,0 +1,39 @@
+{
+  "flutter": {
+    "platforms": {
+      "android": {
+        "default": {
+          "projectId": "massage-1294e",
+          "appId": "1:263374484001:android:669dead95701bb24f2a960",
+          "fileOutput": "android/app/google-services.json"
+        }
+      },
+      "dart": {
+        "lib/firebase_options.dart": {
+          "projectId": "massage-1294e",
+          "configurations": {
+            "android": "1:263374484001:android:669dead95701bb24f2a960",
+            "ios": "1:263374484001:ios:525dc91065b5eaa0f2a960",
+            "macos": "1:263374484001:ios:525dc91065b5eaa0f2a960",
+            "web": "1:263374484001:web:b111409f160a35aaf2a960",
+            "windows": "1:263374484001:web:30a112a2abee2e07f2a960"
+          }
+        }
+      }
+    }
+  },
+  "hosting": {
+    "public": "public",
+    "ignore": [
+      "firebase.json",
+      "**/.*",
+      "**/node_modules/**"
+    ],
+    "rewrites": [
+      {
+        "source": "**",
+        "destination": "/index.html"
+      }
+    ]
+  }
+}
